@@ -8,27 +8,31 @@ body {
 }
 
 .container {
-  background: #fff;
+  background: #DBCFBC;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   text-align: center;
   width: 380px;
+   border: 5px solid black;
+  box-shadow: 0 0 20px  rgb(118, 188, 235);
 }
 
 h1 {
   color: #E03FD8;
   margin-bottom: 20px;
   font-size: 32px;
+  text-shadow: 10px 10px 5px grey;
 }
 
 input {
   width: 80%;
   padding: 12px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 2px solid black;
   border-radius: 8px;
   font-size: 18px;
+    box-shadow: 10px 5px 10px 5px rgb(118, 188, 235);
 }
 
 button {
@@ -40,6 +44,8 @@ button {
   cursor: pointer;
   font-size: 16px;
   transition: 0.3s;
+  box-shadow: 10px 5px 10px 5px rgb(118, 188, 235);
+   border: 3px solid black;
 }
 
 button:hover {

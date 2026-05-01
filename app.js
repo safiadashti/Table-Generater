@@ -35,10 +35,16 @@
 //     document.writeln(table , "X", i , '=', table*i, "<br>")
 // }
 
+let number = prompt(Enter A number for table:);
 let btn = document.getElementById('generate');
 btn.addEventListener('click' ,()=>{
     let table = Number (document.getElementById('table').value);
     let range = Number (document.getElementById('range').value);
+
+    if (isNaN(number)) || table === "" || number === null;{
+        CSSContainerRule.
+    }
+
     for(let i=1; i<=range;i++){
         document.write(table, "X", i , "=", table*i, "<br>")
     }
