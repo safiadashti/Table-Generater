@@ -35,17 +35,64 @@
 //     document.writeln(table , "X", i , '=', table*i, "<br>")
 // }
 
-let number = prompt(Enter A number for table:);
+// let number = prompt(Enter any number for table:);
+// let btn = document.getElementById('generate');
+// btn.addEventListener('click' ,()=>{
+//     let table = Number (document.getElementById('table').value);
+//     let range = Number (document.getElementById('range').value);
+
+//     if (isNaN(number) || table === "" || number === null{
+//         CSSContainerRule.
+//     }
+
+//     for(let i=1; i<=range;i++){
+//         document.write(table, "X", i , "=", table*i, "<br>")
+//     }
+// })
+
+// let number = prompt("Enter any number for table:");
+// let container = document.getElementById('table-container');
+// // btn.addEventListener('click' ,()=>{
+// //     let table = Number (document.getElementById('table').value);
+// //     let range = Number (document.getElementById('range').value);
+
+//    /zz
+// })
+
+// document.getElementById('generate').addEventListener('click', () => {
+//   const num = parseInt(document.getElementById('number').value);
+//   const limit = parseInt(document.getElementById('limit').value);
+//   const resultDiv = document.getElementById('table-result');
+
+//   resultDiv.innerHTML = '';
+
+//   if (isNaN(num) || isNaN(limit)) {
+//     resultDiv.innerHTML = '<p style="color:red;">Please enter valid numbers!</p>';
+//     return;
+//   }
+
+//   let html = '<table>';
+//   for (let i = 1; i <= limit; i++) {
+//     html += `
+//       <tr>
+//         <td>${num} × ${i}</td>
+//         <td>=</td>
+//         <td>${num * i}</td>
+//       </tr>
+//     `;
+//   }
+//   html += '</table>';
+
+//   resultDiv.innerHTML = html;
+// });
+
 let btn = document.getElementById('generate');
-btn.addEventListener('click' ,()=>{
-    let table = Number (document.getElementById('table').value);
-    let range = Number (document.getElementById('range').value);
 
-    if (isNaN(number)) || table === "" || number === null;{
-        CSSContainerRule.
-    }
+btn.addEventListener('click' , ()=>{
+    let table =  document.getElementById('table').value;
+    let range = document.getElementById('range').value;
 
-    for(let i=1; i<=range;i++){
-        document.write(table, "X", i , "=", table*i, "<br>")
+    for(let i = 1; i<=range; i++){
+        document.writeln(table, "X" , i, "=" , table*i, "<br>");
     }
 })
