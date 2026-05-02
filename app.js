@@ -92,7 +92,7 @@ btn.addEventListener('click' , ()=>{
     let table =  document.getElementById('table').value;
     let range = document.getElementById('range').value;
 
-    for(let i = 1; i<=range; i++){
+    for(let i = 1; i<=range;  i++){
         document.writeln(table, "X" , i, "=" , table*i, "<br>");
     }
 })
